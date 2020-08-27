@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+  <style>
+    div{
+  border:solid 1px red;
+  background-color:#8DEAAF;
+  text-align:center;
+  }
+h1{
+  color:#3C90D3;
+  }
+.Submit{
+  background-color: DogerBlue;;
+  }
+  </style>
+  <script src="script.js "></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>Personal Details</h1>
+  <form name="myform" action="conformation page.html" method="post" onsubmit="return validateform()">
+    Name : <input type="text" name="name"></input><br/><br/>
+  Password : <input type="password" name="password"></input><br/><br/>
+  E-mail id : <input type="text" name="email"></input><br/><br/>
+  Gender :<input type="radio" name="Gender" value="Male">Male</input>
+  <input type="radio" name="Gender" value="Male">Male</input><br><br>
+Contact# : <input type="text" name="contact"></input><br>
+<h1>Educational  Qualifications</h1>
+<label for="select1">Degree :</label>
+<select id="select1">
+  <option>MBA</option>
+  <option>B.Tech</option>
+  <option>M.Tech</option>
+  <option>Higher Secondary</option>
+  <option selected>--Select Group--</option>
+</select><br/><br/>
+<label for="select2">Engineering :</label>
+<select id="select2">
+  <option>CSE</option>
+  <option>Mechanical</option>
+  <option>Civil</option>
+  <option>Electronics</option>
+  <option selected>--Select Group--</option></select><br/><br/>
+Hobbies:<input type="checkbox" name="hobbies">Playing Chess</input>
+<input type="checkbox" name="hobbies">Reading Books</input><br/>
+<h1>Address</h1>
+<textarea type="text" name="address"rows="4" cols="35"></textarea><br/><br/>
+<p>Attach Resume :<input type="file" id="myfile" name="myfile"></br><br>
+<input type="submit" class="Submit"></input>
+</form>
+</div>
+</body>		
+</html>
